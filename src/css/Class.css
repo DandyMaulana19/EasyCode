@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #2447f9;
+  --secondary-color: #e5e9f2;
+  --third-color: #f6f8fd;
+  --nonactive-color: #0b5ed7;
+  --text-color: #34364a;
+}
+
+* {
+  margin: 0;
+  font-family: Poppins;
+  /* border: 2px solid red; */
+}
+
+section {
+  padding: 20px 50px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  flex-wrap: nowrap;
+  height: 100vh;
+}

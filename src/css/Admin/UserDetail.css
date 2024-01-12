@@ -1,0 +1,134 @@
+:root {
+  --primary-color: #2447f9;
+  --secondary-color: #e5e9f2;
+  --third-color: #f6f8fd;
+  --nonactive-color: #0b5ed7;
+  --text-color: #34364a;
+}
+
+* {
+  /* border: 2px solid red; */
+  font-family: "Poppins";
+}
+
+section {
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(197, 197, 197);
+  margin: 50px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inputForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.wrapper {
+}
+
+label {
+  margin-right: 12px;
+}
+
+select,
+input {
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  margin-right: 18px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  background-color: var(--nonactive-color);
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: var(--nonactive-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f3f3f3;
+  border-radius: 8px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+
+.tableHeader {
+  background: #000;
+  width: 100%;
+}
+
+.First {
+  border-radius: 8px 0px 0px 0px;
+}
+
+.Last {
+  border-radius: 0px 8px 0px 0px;
+}
+
+th {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: #fff;
+}
+
+td {
+  padding-left: 5px;
+}
+
+.action {
+  text-align: center;
+}
+
+a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+  margin: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputForm {
+    display: flex;
+  }
+  form {
+    display: flex;
+  }
+}

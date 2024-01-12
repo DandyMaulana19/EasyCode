@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #2447f9;
+  --secondary-color: #e5e9f2;
+  --third-color: #f6f8fd;
+  --nonactive-color: #0b5ed7;
+  --text-color: #34364a;
+}
+
+* {
+  margin: 0;
+  font-family: Poppins;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 500px;
+  padding: 50px 100px;
+  background-color: #181230;
+}
+
+.headerLeft {
+  width: 50%;
+  padding-top: 50px;
+  padding-right: 50px;
+  /* background-color: #0b5ed7; */
+}
+
+.tagLine {
+  color: #47bb8e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Judul {
+  font-size: 46px;
+  font-weight: bolder;
+  color: var(--secondary-color);
+}
+
+.headerRight {
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 50px 0px; */
+}
+
+#headerImg {
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.Deskripsi {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+.Level {
+  color: orange;
+}
+
+.btnHeader {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  background-color: var(--nonactive-color);
+  margin-top: 30px;
+}
